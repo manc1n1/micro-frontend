@@ -8,7 +8,7 @@ export default defineConfig({
 	plugins: [
 		react(),
 		federation({
-			name: 'hostApp',
+			name: 'app',
 			remotes: {
 				remoteApp: 'http://localhost:5001/assets/remoteEntry.js',
 			},
